@@ -1,4 +1,4 @@
-# SQL HW №1
+# [SQL HW №1](https://github.com/EvgeneyKEO/SQL/blob/befb65d1b750bdb1b0be80eb8cfcc70c2d0da563/HW_1.sql)
 1. Вывести все поля и все строки.
 ```
 select * from students;
