@@ -286,5 +286,5 @@ insert into roles_employee (employee_id, role_id)
 	values  (7,2),
 		(20,4),
 		(3,9),
-		(insert data, insert data),
+		(insert data, insert data);
 ```
