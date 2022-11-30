@@ -1,6 +1,6 @@
 # SQL HW №1
 1. Вывести все поля и все строки.
-`select * from students;`
+```select * from students;```
 
 2. Вывести всех студентов в таблице
 select name from students;
