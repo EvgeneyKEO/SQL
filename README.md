@@ -1,4 +1,4 @@
-# [SQL HW №1](https://github.com/EvgeneyKEO/SQL/blob/befb65d1b750bdb1b0be80eb8cfcc70c2d0da563/HW_1.sql)
+# :large_orange_diamond: [SQL HW №1](https://github.com/EvgeneyKEO/SQL/blob/befb65d1b750bdb1b0be80eb8cfcc70c2d0da563/HW_1.sql)
 1. Вывести все поля и все строки.
 ```
 select * from students;
@@ -181,4 +181,4 @@ select id, name, created_on from students
 order by created_on desc;
 ```
 _____________________________
-# [SQL HW №2](https://github.com/EvgeneyKEO/SQL/blob/fccc9f49f51b4d38667fe7d2cbddf79dd0e17434/HW_2.sql)
+# :large_orange_diamond: [SQL HW №2](https://github.com/EvgeneyKEO/SQL/blob/fccc9f49f51b4d38667fe7d2cbddf79dd0e17434/HW_2.sql)
