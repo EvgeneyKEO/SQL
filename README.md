@@ -181,5 +181,5 @@ select id, name, created_on from students
 order by created_on desc;
 ```
 _____________________________
-# [SQL HW №2]()
+# [SQL HW №2](https://github.com/EvgeneyKEO/SQL/blob/fccc9f49f51b4d38667fe7d2cbddf79dd0e17434/HW_2.sql)
 _____________________________
