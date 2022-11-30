@@ -180,3 +180,6 @@ order by created_on;
 select id, name, created_on from students
 order by created_on desc;
 ```
+_____________________________
+# [SQL HW №2]()
+_____________________________
