@@ -190,17 +190,16 @@ employee_name. Varchar(50), not null
 ```
 create table employees(
 	id serial primary key,
-	employee_name varchar(50) not null
-);
+	employee_name varchar(50) not null);
 ```
 
 2.Наполнить таблицу employee 70 строками.
 ```
 insert into employees (employee_name)
 	values  ('Irene_Ryan'),
-			('Christian_Howell'),
-			('Helen_Bowers')
-   ('insert data');
+		('Christian_Howell'),
+		('Helen_Bowers')
+   		('insert data');
  ```
  
 3. Создать таблицу salary
@@ -209,16 +208,15 @@ monthly_salary. Int, not null
 ```
 create table salary(
 	id serial primary key,
-	monthly_salary int not null
-);
+	monthly_salary int not null);
 ```
 
 4.Наполнить таблицу salary 15 строками
 ```
 insert into salary (monthly_salary)
 	values  (1000),
-			(1100),
-			(insert data);
+		(1100),
+		(insert data);
 ```
 
 5. Создать таблицу employee_salary 
@@ -233,19 +231,18 @@ create table employee_salary(
 	foreign key (employee_id)
 		references employees (id),
 	foreign key (salary_id)
-		references salary (id)	
-);
+		references salary (id));
 ```
 
 6.Наполнить таблицу employee_salary 40 строками: в 10 строк из 40 вставить несуществующие employee_id - будет ошибка, т.к. добавленных 10 значений нет в таблице employee
 ```
 insert into employee_salary (employee_id, salary_id)
 	values  (3,7),
-			(1,4),
-			(5,9),
-			(40,13),
-			(23,4),
-			(insert data, insert data); 
+		(1,4),
+		(5,9),
+		(40,13),
+		(23,4),
+		(insert data, insert data); 
 ```
 
 7. Создать таблицу roles
@@ -254,8 +251,7 @@ role_name. int, not null, unique
 ```
 create table roles(
 	id serial primary key,
-	role_name int not null unique
-);
+	role_name int not null unique);
 ```
 
 8.Поменять тип столба role_name с int на varchar(30)
@@ -268,8 +264,8 @@ alter column role_name type varchar(30);
 ```
 insert into roles (role_name)
 	values  ('Junior Python developer'),
-			('Middle Python developer'),
-			('insert data');
+		('Middle Python developer'),
+		('insert data');
 ```
 
 10.Создать таблицу roles_employee
@@ -281,15 +277,14 @@ create table roles_employee(
 	foreign key (employee_id)
 		references employees (id),
 	foreign key (role_id)
-		references roles (id)
-);
+		references roles (id));
 ```
 
 11.Наполнить таблицу roles_employee 40 строками
 ```
 insert into roles_employee (employee_id, role_id)
 	values  (7,2),
-			(20,4),
-			(3,9),
-			(insert data, insert data),
+		(20,4),
+		(3,9),
+		(insert data, insert data),
 ```
