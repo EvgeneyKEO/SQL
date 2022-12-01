@@ -288,3 +288,5 @@ insert into roles_employee (employee_id, role_id)
 		(3,9),
 		(insert data, insert data);
 ```
+_____________________________
+# :large_orange_diamond: [SQL HW №3](https://github.com/EvgeneyKEO/SQL/blob/fccc9f49f51b4d38667fe7d2cbddf79dd0e17434/HW_2.sql)
